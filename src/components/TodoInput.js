@@ -13,6 +13,7 @@ function TodoInput() {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     type="text" className="col form-control" />
+                <button>1</button>
                 <button
                     onClick={() => {
                         dispatch(addTodo({
